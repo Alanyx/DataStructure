@@ -62,7 +62,7 @@ public class DoubleLink<T> {
         //反向查找
         //找到最后一个节点
         DNode<T> rNode = mHead.prev;
-        int rIndex = mCount - index - 1;
+        int rIndex = mCount - index + 1;
         for (int j = 0; j < rIndex; j++) {
             rNode = rNode.prev;
         }
@@ -110,7 +110,6 @@ public class DoubleLink<T> {
         insert(0, t);
     }
 
-    /// todo 理解好这块的实现方式
     //将节点追加到链表的末尾
     public void insertLast(T t) {
         DNode<T> node = new DNode<T>(t, mHead.prev, mHead);

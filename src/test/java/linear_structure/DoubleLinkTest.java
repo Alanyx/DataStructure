@@ -1,3 +1,5 @@
+package linear_structure;
+
 import linear_structure.DoubleLink;
 import org.junit.Test;
 
@@ -6,7 +8,6 @@ import org.junit.Test;
  * 注：java自带的集合包中有实现双向链表，路径是:java.util.LinkedList
  */
 public class DoubleLinkTest {
-
 
     /**
      * 双向链表操作int数据
@@ -19,11 +20,11 @@ public class DoubleLinkTest {
         //创建双向链表
         DoubleLink<Integer> doubleLink = new DoubleLink<>();
 
-        //将5插入表头
+        //将10插入表头
         doubleLink.insert(0, iArr[0]);
-        //将5插入表尾
+        //将20插入表尾
         doubleLink.insertLast(iArr[1]);
-        //将35插入表头
+        //将30插入表头
         doubleLink.insertFirst(iArr[2]);
 
         //判断双向链表是否为空
