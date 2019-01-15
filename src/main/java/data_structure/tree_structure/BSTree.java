@@ -1,4 +1,4 @@
-package tree_structure;
+package data_structure.tree_structure;
 
 /**
  * 二叉查找树

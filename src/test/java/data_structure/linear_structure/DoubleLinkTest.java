@@ -1,6 +1,5 @@
-package linear_structure;
+package data_structure.linear_structure;
 
-import linear_structure.DoubleLink;
 import org.junit.Test;
 
 /**

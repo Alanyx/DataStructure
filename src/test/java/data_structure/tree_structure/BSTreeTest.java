@@ -1,4 +1,4 @@
-package tree_structure;
+package data_structure.tree_structure;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package heap_structure;
+package data_structure.heap_structure;
 
 /**
  * 二叉堆之最大堆实现

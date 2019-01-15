@@ -1,4 +1,4 @@
-package linear_structure;
+package data_structure.linear_structure;
 
 /**
  * Java实现一: 数组实现“队列”，只能存储int数据

@@ -1,4 +1,4 @@
-package linear_structure;
+package data_structure.linear_structure;
 
 /**
  * Created by yinxing on 2019/1/4.
