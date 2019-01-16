@@ -7,24 +7,20 @@ import org.junit.Test;
  * @date 2019/1/16
  */
 
-public class QuickSortTest {
+public class SelectSortTest {
 
-    /**
-     * TestNG测试
-     *
-     * @throws Exception
-     */
     @Test
-    public void testQuickSort() throws Exception {
+    public void selectSort() throws Exception {
         int i;
-        int a[] = {30, 40, 60, 10, 20, 50};
+        int[] a = {20, 40, 30, 10, 60, 50};
 
         System.out.printf("before sort:");
         for (i = 0; i < a.length; i++)
             System.out.printf("%d ", a[i]);
         System.out.printf("\n");
 
-        QuickSort.quickSort(a, 0, a.length - 1);
+        SelectSort.selectSort(a, a.length);
+
         System.out.printf("after  sort:");
         for (i = 0; i < a.length; i++)
             System.out.printf("%d ", a[i]);
